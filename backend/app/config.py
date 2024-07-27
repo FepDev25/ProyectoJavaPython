@@ -1,3 +1,5 @@
+import os
+
 class Config:
-    SECRET_KEY = 'mi_clave_secreta'
-    # Agrega más configuraciones según sea necesario
+    SQLALCHEMY_DATABASE_URI = 'mysql://username:password@localhost/dbname'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False

@@ -1,6 +1,8 @@
 module org.cultodeportivo.frontend {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.net.http;
+    requires org.json;
 
     requires org.kordamp.bootstrapfx.core;
 
